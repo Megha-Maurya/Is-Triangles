@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz</title>
+    <link rel="stylesheet" href="triangle-quiz.css">
+</head>
+<body>
+    <nav id="navigation">
+        <h1 id="heading">Fun with ∆ </h1>
+        <a class="link" href="Is-trianlge.html">Is Triangle?</a>
+        <a class="link" href="triangle-quiz.html">Quiz</a>
+        <a class="link" href="hypo.html"> Hypotenuse</a>
+        <a class="link" href="area.html"> Area of Triangle</a>
+    </nav>
+    <h1>Triangle Quiz</h1>
+    <form class="form">
+        <div class="quiz-container">
+            <p class="para">1. What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+            <label class="label"><input type="radio" name="quesiton1" value="45°"/>45°</label>
+            <label class="label"><input type="radio" name="quesiton1" value="60°"/>60°</label>
+            <label class="label"><input type="radio" name="quesiton1" value="90°"/>90°</label>
+        </div>
+
+        <div class="quiz-container">
+            <p class="para">2. If a triangle has an angle of 90 degrees, what is it called?</p>
+            <label class="label">
+                <input type="radio" name="question2" value="obtuse"/>obtuse
+            </label>
+            <label class="label">
+                <input type="radio" name="question2" value="acute"/>acute
+            </label>
+            <label class="label">
+                <input type="radio" name="question2" value="right angled"/>right angled
+            </label>
+        </div>
+
+        <div class="quiz-container">
+            <p class="para">3. A triangle where all sides are congruent is called</p>
+            <label class="label">
+                <input type="radio" name="question3" value="Scalene"/>Scalene
+            </label>
+            <label class="label">
+                <input type="radio" name="question3" value="Isosceles"/>Isosceles
+            </label>
+            <label class="label">
+                <input type="radio" name="question3" value="Equilateral"/>Equilateral
+            </label>
+        </div>
+
+        <div class="quiz-container">
+            <p class="para">4. All 3 interior angles of a triangle add up to </p>
+            <label class="label">
+                <input type="radio" name="question4" value="90°"/>90°
+            </label>
+            <label class="label">
+                <input type="radio" name="question4" value="180°"/>180°
+            </label>
+            <label class="label">
+                <input type="radio" name="question4" value="360°"/>360°
+            </label>
+        </div>
+
+        <div class="quiz-container">
+            <p class="para">5. The side opposite to right angle in right angled triangle is called </p>
+            <label class="label">
+                <input type="radio" name="question5" value="Base"/>Base
+            </label>
+            <label class="label">
+                <input type="radio" name="question5" value="Altitude"/>Altitude
+            </label>
+            <label class="label">
+                <input type="radio" name="question5" value="Hypotenuse"/>Hypotenuse
+            </label>
+        </div>
+    </form>
+       
+    <button id="btn">Submit Button</button>
+    <div id="out"></div>
+    <script src="triangle-quiz.js"></script>
+</body>
+</html>
